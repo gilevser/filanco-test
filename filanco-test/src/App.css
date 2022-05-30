@@ -1,0 +1,15 @@
+.App {
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+}
+
+.designations {
+    border-top: 2px solid lightgrey;
+    margin: 70px 15px 0 15px;
+    width: 90%;
+}
+
+div {
+    min-height: 50px;
+}
+

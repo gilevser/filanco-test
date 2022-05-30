@@ -1,0 +1,48 @@
+.aside_item {
+    width: 200px;
+    padding: 5px;
+    margin: 20px;
+    border-bottom: 2px solid lightgrey;
+
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
+}
+
+
+.aside_item__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+
+}
+
+.aside_item__icon {
+    flex: 0.3;
+    height: 30px;
+}
+
+.aside_item__name {
+    color: orange;
+    flex: 0.7;
+}
+
+.aside_item__actions {
+    margin: 5px;
+
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
+}
+
+
+header {
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
+}
+
+
+@keyframes ani {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateY(0);}
+}

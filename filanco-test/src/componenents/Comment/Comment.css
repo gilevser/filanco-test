@@ -1,0 +1,23 @@
+.comment {
+    display: flex;
+    align-items: center;
+}
+
+.comment > img {
+    margin-left: 10px;
+    width: 20px
+}
+
+.comment > button {
+    background-color: #6027cc;
+    margin-left: 10px;
+    color: white;
+}
+
+.comment > button:hover {
+    background-color: #899cc0;
+}
+
+.comment > button:active {
+    background-color: blue;
+}

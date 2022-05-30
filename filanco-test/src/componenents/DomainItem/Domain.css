@@ -1,0 +1,12 @@
+.domain-tem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.domain-tem > img {
+    width: 20px;
+}
