@@ -15,7 +15,6 @@ const Comment = () => {
             <form onSubmit={changeComment} className='comment'><input type="text" value={comment} onChange={(e) => setComment(e.target.value)}/>
                 <button>Сохранить</button>
             </form>
-            
         )
     }
 

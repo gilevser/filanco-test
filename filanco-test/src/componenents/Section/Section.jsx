@@ -14,16 +14,12 @@ const Section = () => {
     const [domainsState, setDomains] = useState(domains)
 
     const DeleteDomain = (id) => {
-
-        console.log(id)
         setDomains((prev) => prev.filter(el => el.id !== id))
     }
 
     return (
-
             <section>
                 <h1>АККАУНТЫ ХОСТИНГА</h1>
-
                 <div className="section_container">
                     <div className="section_container__header">
                         <div>Аккаунт</div>
@@ -49,7 +45,6 @@ const Section = () => {
                         <div><a href="#">Включение</a></div>
                         <div>Icons</div>
                     </div>
-
                     <div className="section_container__main">
                         <div className="section_container__main-title">
                             <div>IP-адрес</div>
@@ -82,14 +77,11 @@ const Section = () => {
                                 <div>Имя хоста PgSQL</div>
                         </div>
                     </div>
-
-
                     <div className="section_container__main domain">
                         <div className="section_container__main-title">
                             <div>
                                 <a href="#">Привязанные домены</a>
                             </div>
-
                         </div>
                         <div className="section_container__domain-data">
                             {domainsState.map(domain =>
@@ -97,11 +89,8 @@ const Section = () => {
                             )}
                         </div>
                     </div>
-
-
                 </div>
             </section>
-       
     );
 };
 
